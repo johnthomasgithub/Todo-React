@@ -12,7 +12,6 @@ body {
 header {
   font-size: 2rem;
 }
-
 header,
 form {
   min-height: 20vh;
@@ -117,6 +116,7 @@ select {
 }
 select {
   color: #ff6f47;
+  background-color: #f7fffe;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   width: 12rem;
@@ -163,7 +163,7 @@ form input {
 .todo-item{
   padding: 0rem 0.5rem;
   width: 16rem;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 .trash-btn,
