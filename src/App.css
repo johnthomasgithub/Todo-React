@@ -19,6 +19,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 form input,
 form button {
@@ -137,3 +138,28 @@ select {
   transform: scale(1.5);
 }
 */
+
+@media (max-width: 690px){
+ header{
+   font-size: 1.3rem;
+ }
+form input,
+form button {
+  padding: 0.2rem;
+  font-size: 1.5rem;
+  border: none;
+}
+form input {
+  width: 12rem;
+}
+.select{
+  margin: 1rem;
+  width: 8rem;
+ 
+}
+
+.filter-todo{
+  padding: 0.5rem;
+}
+
+}
